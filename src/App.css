@@ -16,3 +16,11 @@
     width: 110%;
   }
 }
+
+.font-face-qu {
+  font-family: "QuintUpper";
+  font-weight: 700;
+}
+.font-face-ql {
+  font-family: "QuintLower";
+}
