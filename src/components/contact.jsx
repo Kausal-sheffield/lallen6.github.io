@@ -128,7 +128,7 @@ export const Contact = (props) => {
                   </li>
                   <li>
                     <a href={props.data ? props.data.researchgate : "/"}>
-                      <i className="fab fa-researchgate"></i>
+                      <i class="fab fa-researchgate"></i>
                     </a>
                   </li>
                 </ul>

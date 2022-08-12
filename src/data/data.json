@@ -4,22 +4,16 @@
     "paragraph": "Saving you money on maintenance"
   },
   "About": {
-    "paragraph": "By using state-of-the-art analysis techniques we look to uncover the underlying causes which are driving unplanned downtime in manufacturing facilities and offer true solutions to them before the issues ever become real issues! Our approach saves time, money, and reduces safety concerns bought about by unplanned stoppages in production. The aim is to make manufacturing faster, more efficient and safer for all.",
+    "paragraph": "By using state-of-the-art analysis techniques we look to uncover the underlying causes which are driving unplanned downtime in process manufacturing facilities and offer true solutions to them before the issues ever become real issues! Our holistic approach saves time, money, and reduces safety concerns bought about by unplanned stoppages in production. The aim is to make process manufacturing faster, more efficient and safer for all.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Guided analysis - we want to hear the problems from you.",
+      "Analysis of entire plant data - not just single operation.",
+      "Intuitive insight phrased in a way that makes sense to you.",
+      "Real process engineers with real experience."
     ]
   },
   "Team": {
-    "paragraph": "We are a friendly, ambitious team striving to help you make bettr decisions with your data.",
+    "paragraph": "With combined experience in the process sectors and advanced process modelling, our team is perfectly positioned to serve you and your company. Our team combines industry expertise with strong entrepreneurial drive and passion and is led by:  ",
     "members" : [
       {
       "img": "img/team/louis.jpg",
@@ -29,7 +23,7 @@
     {
       "img": "img/team/joan.jpg",
       "name": "Professor Joan Cordiner",
-      "job": "Senior Executive Board Member"
+      "job": "Non-Executive Director"
     }]
     },
   "Contact": {
@@ -41,7 +35,7 @@
     "youtube": ""
   },
   "Features": {
-    "paragraph": "Our mission is clear and simple - saving you money on your maintenance costs. Our unique offering goes beyond other predictive maintenance techniques by looking at the what, the when, and the why of process failures.",
+    "paragraph": "Our mission is clear and simple - saving you money on your maintenance costs. Our unique offering goes beyond other predictive maintenance techniques by looking at the what, the when, and the why of failures in the process industries.",
 
   "icons": [
     {
