@@ -1,5 +1,6 @@
 {
   "name": "kausal-landingpage",
+  "homepage": "https://kausal.co.uk/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
