@@ -65,12 +65,12 @@ ol {
 }
 ul {
   font-family: "QuintLower", "Raleway", sans-serif;
-},
+}
 ol {
   font-family: "QuintLower", "Raleway", sans-serif;
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
+  /* webkit-padding: 0;
+  moz-padding: 0; */
 }
 hr {
   height: 2px;
