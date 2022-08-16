@@ -1,5 +1,6 @@
 {
   "name": "kausal-landingpage",
+  "homepage": "https://kausal.co.uk/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.4",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.1",
     "react-app-rewired": "^2.2.1",
     "react-dom": "^17.0.1",
@@ -23,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
