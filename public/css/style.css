@@ -426,8 +426,8 @@ header .intro-text {
   text-align: center;
 }
 #team img {
-  /* position: relative; */
-  /* display:block; */
+  position: relative;
+  display:block; 
   width: 240px;
   max-width: 240px;
   min-width:240px;
