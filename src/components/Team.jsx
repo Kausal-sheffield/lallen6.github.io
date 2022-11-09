@@ -6,12 +6,15 @@ export const Team = (props) => {
           <h2>Meet the Team</h2>
           <p>{props.data ? props.data.paragraph : "Loading..."}</p>
         </div>
-        <div id="row" className="images">
+        <div className="images">
           {props.data
             ? props.data.members.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6">
+                <div
+                  key={`${d.name}-${i}`}
+                  className="col-lg-6 col-md-6 col-sm-6"
+                >
                   <div className="thumbnail">
-                    <img src={d.img} alt="..." className="team-img" />
+                    <img src={d.img} alt="..." />
                     <div className="caption">
                       <h4>{d.name}</h4>
                       <p>{d.job}</p>

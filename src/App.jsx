@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Mission } from "./components/mission";
 import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
@@ -29,7 +29,7 @@ const App = () => {
       <Background /> {/* adds interactive background component */}
       <Navigation data={landingPageData.menu} />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
+      <Mission data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />

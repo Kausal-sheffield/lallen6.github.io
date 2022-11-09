@@ -29,7 +29,7 @@
   "Contact": {
     "address": "E60a Sir Robert Hadfield Building, Chemical and Biological Engineering, Univeristy of Sheffield",
     "email": "lallen6@sheffield.ac.uk",
-    "linkedin": "https://www.linkedin.com/in/louis-allen-sheff/",
+    "linkedin": "https://www.linkedin.com/company/kausal-maintenance",
     "researchgate": "https://www.researchgate.net/profile/Louis-Allen",
     "twitter": "",
     "youtube": ""
@@ -41,7 +41,7 @@
     {
       "icon": "fa fa-crosshairs",
       "title": "What?",
-      "text": "We identify the key relationships between sensors in your plant. Helps us understand what is driving change."
+      "text": "We identify the key cause and effect relationships driving downtime in your plant."
     },
     {
       "icon": "fa fa-clock-o",
