@@ -1,4 +1,9 @@
+name: Kausal
+url: https://kausal.co.uk
 theme: jekyll-theme-minimal
 sass:
   sass_dir: _sass
   style: compressed
+# Add these lines:
+source: .
+baseurl: ""
