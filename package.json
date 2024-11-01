@@ -1,6 +1,6 @@
 {
   "name": "kausal-landingpage",
-  "homepage": "https://kausal.co.uk/",
+  "homepage": "https://kausal-sheffield.github.io/website/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "set NODE_OPTIONS=--openssl-legacy-provider && npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "set NODE_OPTIONS=--openssl-legacy-provider && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
