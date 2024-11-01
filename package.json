@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "set NODE_OPTIONS=--openssl-legacy-provider && yarn run build",
-    "deploy": "set NODE_OPTIONS=--openssl-legacy-provider && main -d build"
+    "deploy": "set NODE_OPTIONS=--openssl-legacy-provider && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
