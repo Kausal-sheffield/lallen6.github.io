@@ -3,17 +3,21 @@ export const About = (props) => {
   return (
     <div id="about">
       <div className="about-container">
-        <div className="about-content">
+        <div className="image-container">
           <img
             src="img/about.jpg"
             className="about-image"
             alt="petro_chem_image"
             loading="lazy"
           />
+        </div>
+        <div className="about-content">
           <div className="about-text">
             <h2>Reducing Your Maintenance Costs</h2>
             <p>{props.data ? props.data.paragraph : "loading..."}</p>
           </div>
+        </div>
+        <div className="about-content">
           <div className="about-text">
             <h3>What makes Kausal Different?</h3>
             <div className="offerings-list">
