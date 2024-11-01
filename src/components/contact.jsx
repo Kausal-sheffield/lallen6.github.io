@@ -271,7 +271,7 @@ export const Contact = (props) => {
   return (
     <div>
       <div id="contact">
-        <div className="container">
+        <div className="about-container">
           <div className="row">
             <div className="col-md-8">
               <div className="section-title">

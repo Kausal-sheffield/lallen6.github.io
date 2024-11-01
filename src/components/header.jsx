@@ -3,7 +3,7 @@ export const Header = (props) => {
     <header id="header">
       <div className="intro">
         <div className="overlay">
-          <div className="container">
+          <div className="about-container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <h1>
