@@ -12,6 +12,9 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import Background from "./components/node-background/background";
+import React from 'react'
+import { useIntersectionObserver } from "./useIntersectionObserver";
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -19,14 +22,17 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
+
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
 
+  useIntersectionObserver();
+
   return (
     <div>
-      <Background /> {/* adds interactive background component */}
+      <Background />
       <Navigation data={landingPageData.menu} />
       <Header data={landingPageData.Header} />
       <Mission data={landingPageData.Features} />

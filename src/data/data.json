@@ -1,31 +1,37 @@
 {
   "Header": {
     "title": "Kausal",
-    "paragraph": "Saving you money on maintenance"
+    "paragraph": "The Solution for Unplanned Downtime"
   },
   "About": {
-    "paragraph": "By using state-of-the-art analysis techniques we look to uncover the underlying causes which are driving unplanned downtime in process manufacturing facilities and offer true solutions to them before the issues ever become real issues! Our holistic approach saves time, money, and reduces safety concerns bought about by unplanned stoppages in production. The aim is to make process manufacturing faster, more efficient and safer for all.",
+    "paragraph": "Process manufacturers lose 11% of annual revenue to unplanned downtime - up to $129 million per plant. Kausal combines deep engineering expertise with cutting-edge generative AI to prevent these losses. Our unique approach provides 24/7 expert monitoring of your entire process, detecting and diagnosing issues before they impact production. Early studies show a 40% reduction in downtime through thoughtful implementation of our solution.",
     "Why": [
-      "Guided analysis - we want to hear the problems from you.",
-      "Analysis of entire plant data - not just single operation.",
-      "Intuitive insight phrased in a way that makes sense to you.",
-      "Real process engineers with real experience."
+      "Holistic process analysis - we see the complete picture, not just individual assets",
+      "Clear, actionable insights - no black box solutions, just straightforward recommendations",
+      "Early warning system - detect issues months before they cause problems",
+      "Engineering-first approach - combining AI with real process expertise"
     ]
   },
   "Team": {
-    "paragraph": "With combined experience in the process sectors and advanced process modelling, our team is perfectly positioned to serve you and your company. Our team combines industry expertise with strong entrepreneurial drive and passion and is led by:  ",
-    "members" : [
+    "paragraph": "Our team combines decades of process engineering expertise with cutting-edge AI knowledge. We understand the challenges you face because we've been there. Led by experienced professionals who are passionate about transforming process manufacturing: ",
+    "members": [
       {
-      "img": "img/team/louis.jpg",
-      "name": "Louis Allen",
-      "job": "Founder/CEO"
-    },
-    {
-      "img": "img/team/joan.jpg",
-      "name": "Professor Joan Cordiner",
-      "job": "Non-Executive Director"
-    }]
-    },
+        "img": "img/team/louis2.jpg",
+        "name": "Louis Allen",
+        "job": "Founder/CEO"
+      },
+      {
+        "img": "img/team/joan.jpg",
+        "name": "Professor Joan Cordiner",
+        "job": "Principal Scientific Advisor"
+      },
+      {
+        "img": "img/team/steve.jpeg",
+        "name": "Steve Kerridge",
+        "job": "Business Advisor"
+      }
+    ]
+  },
   "Contact": {
     "address": "E60a Sir Robert Hadfield Building, Chemical and Biological Engineering, Univeristy of Sheffield",
     "email": "lallen6@sheffield.ac.uk",
@@ -35,24 +41,23 @@
     "youtube": ""
   },
   "Features": {
-    "paragraph": "Our mission is clear and simple - saving you money on your maintenance costs. Our unique offering goes beyond other predictive maintenance techniques by looking at the what, the when, and the why of failures in the process industries.",
-
-  "icons": [
-    {
-      "icon": "fa fa-crosshairs",
-      "title": "What?",
-      "text": "We identify the key cause and effect relationships driving downtime in your plant."
-    },
-    {
-      "icon": "fa fa-clock-o",
-      "title": "When?",
-      "text": "Using the discovered relationships we forecast the sensors to look for long term degradation. We can detect fault over 2 months before it happens."
-    },
-    {
-      "icon": "fa fa-area-chart",
-      "title": "Why?",
-      "text": "Once identified, we can look into our causal relationships to find what has changed. We can track the change back through time to find the root cause of the problem."
-    }
-  ]
-}
+    "paragraph": "Our mission is to revolutionize process manufacturing by eliminating unplanned downtime. Here's how we deliver results:",
+    "icons": [
+      {
+        "icon": "fa fa-search",
+        "title": "Detect",
+        "text": "Advanced fault detection across your entire process, not just individual assets"
+      },
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Diagnose",
+        "text": "Clear root cause analysis with actionable recommendations"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Prevent",
+        "text": "Stop problems before they impact production, saving time and money"
+      }
+    ]
+  }
 }

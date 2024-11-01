@@ -19,7 +19,7 @@ export const Navigation = (props) => {
             <a className="navbar-brand page-scroll" href="#page-top">
               Kausal
             </a>
-            <img src="img/logos/logo_steel_blue.png" className="navbar-logo" />
+            <img src="img/logos/logo_steel_blue.png" className="navbar-logo" alt="Kausal Logo" />
           </div>
         </div>
 

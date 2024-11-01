@@ -9,19 +9,19 @@ export const Team = (props) => {
         <div className="images">
           {props.data
             ? props.data.members.map((d, i) => (
-                <div
-                  key={`${d.name}-${i}`}
-                  className="col-lg-6 col-md-6 col-sm-6"
-                >
-                  <div className="thumbnail">
-                    <img src={d.img} alt="..." />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
+              <div
+                key={`${d.name}-${i}`}
+                className="col-lg-6 col-md-6 col-sm-6"
+              >
+                <div className="thumbnail">
+                  <img src={d.img} alt="..." />
+                  <div className="caption">
+                    <h4>{d.name}</h4>
+                    <p>{d.job}</p>
                   </div>
                 </div>
-              ))
+              </div>
+            ))
             : "loading"}
         </div>
       </div>

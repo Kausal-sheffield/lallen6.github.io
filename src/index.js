@@ -7,6 +7,7 @@ import * as serviceWorker from "./serviceWorker";
 import "./fonts/quint_lower.ttf";
 import "./fonts/quint-uppercase-font.otf";
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
