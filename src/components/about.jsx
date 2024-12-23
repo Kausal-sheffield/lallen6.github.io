@@ -1,20 +1,24 @@
 export const About = (props) => {
-
   return (
     <div id="about">
       <div className="about-container">
-        <div className="image-container">
-          <img
-            src="img/about.jpg"
-            className="about-image"
-            alt="petro_chem_image"
-            loading="lazy"
-          />
+        <div className="section-title">
+          <h2>Benefits of Kausal</h2>
         </div>
-        <div className="about-content">
-          <div className="about-text">
-            <h2>Reducing Your Maintenance Costs</h2>
-            <p>{props.data ? props.data.paragraph : "loading..."}</p>
+        <div className="pdf-container">
+          {/* Replace this with your static image */}
+          <div className="">
+            <img
+              src="pdf/kausal_page-0001.jpg" // Update this path to your actual image
+              alt="Kausal Benefits"
+            />
+            <a
+              href="/pdf/kausal.pdf"
+              download="kausal.pdf"
+              className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200"
+            >
+              Download PDF
+            </a>
           </div>
         </div>
         <div className="about-content">
@@ -24,9 +28,7 @@ export const About = (props) => {
               <ul>
                 {props.data
                   ? props.data.Why.map((d, i) => (
-                    <li key={`${d}-${i}`}>
-                      {d}
-                    </li>
+                    <li key={`${d}-${i}`}>{d}</li>
                   ))
                   : "loading"}
               </ul>

@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "Kausal",
-    "paragraph": "The Solution for Unplanned Downtime"
+    "paragraph": "Helping You Solve Unplanned Process Downtime"
   },
   "About": {
     "paragraph": "Process manufacturers lose 11% of annual revenue to unplanned downtime - up to $129 million per plant. Kausal combines deep engineering expertise with cutting-edge generative AI to prevent these losses. Our unique approach provides 24/7 expert monitoring of your entire process, detecting and diagnosing issues before they impact production. Early studies show a 40% reduction in downtime through thoughtful implementation of our solution.",
@@ -17,18 +17,21 @@
     "members": [
       {
         "img": "img/team/louis2.jpg",
-        "name": "Louis Allen",
-        "job": "Founder/CEO"
-      },
-      {
-        "img": "img/team/joan.jpg",
-        "name": "Professor Joan Cordiner",
-        "job": "Principal Scientific Advisor"
+        "name": "Dr Louis Allen",
+        "job": "Founder & CEO",
+        "link": "https://linkedin.com/in/louis-allen-sheff"
       },
       {
         "img": "img/team/steve.jpeg",
         "name": "Steve Kerridge",
-        "job": "Business Advisor"
+        "job": "COO, Co-Founder",
+        "link": "https://www.linkedin.com/in/steve-kerridge-3a5264/"
+      },
+      {
+        "img": "img/team/joan.jpg",
+        "name": "Professor Joan Cordiner",
+        "job": "Non-executive Director",
+        "link": "https://sites.google.com/sheffield.ac.uk/the-cordiner-group/group"
       }
     ]
   },
@@ -40,8 +43,8 @@
     "twitter": "",
     "youtube": ""
   },
-  "Features": {
-    "paragraph": "Our mission is to revolutionize process manufacturing by eliminating unplanned downtime. Here's how we deliver results:",
+  "Mission": {
+    "paragraph": "We believe companies across a range of industries will benefit from improved process monitoring. Our aim is to revolutionise process manufacturing by eliminating unplanned downtime through threy key stages.",
     "icons": [
       {
         "icon": "fa fa-search",
@@ -57,6 +60,33 @@
         "icon": "fa fa-shield",
         "title": "Prevent",
         "text": "Stop problems before they impact production, saving time and money"
+      }
+    ],
+    "industryCall": "Help shape the future of predictive maintenance. If you work in any of these sectors we would love your insights:",
+    "industries": [
+      {
+        "icon": "fas fa-water",
+        "title": "Waste Water Treatment"
+      },
+      {
+        "icon": "fas fa-flask",
+        "title": "Chemical Manufacturing"
+      },
+      {
+        "icon": "fas fa-hospital",
+        "title": "Healthcare Manufacturing"
+      },
+      {
+        "icon": "fas fa-industry",
+        "title": "Fast Moving Consumer Goods (FMCG)"
+      },
+      {
+        "icon": "fas fa-oil-well",
+        "title": "Oil & Gas"
+      },
+      {
+        "icon": "fas fa-leaf",
+        "title": "Energy"
       }
     ]
   }

@@ -14,10 +14,12 @@ export const Team = (props) => {
                 className="col-lg-6 col-md-6 col-sm-6"
               >
                 <div className="thumbnail">
-                  <img src={d.img} alt="..." />
+                  <a href={d.link}>
+                    <img src={d.img} alt="..." href={d.link} />
+                  </a>
                   <div className="caption">
                     <h4>{d.name}</h4>
-                    <p>{d.job}</p>
+                    <p style={{ textAlign: 'center' }}>{d.job}</p>
                   </div>
                 </div>
               </div>

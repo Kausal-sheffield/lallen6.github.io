@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Mission } from "./components/mission";
@@ -9,11 +9,18 @@ import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
-import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import Background from "./components/node-background/background";
+import ParticleBackground from "./components/node-background/background";
+import Background from "./components/node-background/background_1";
 import React from 'react'
 import { useIntersectionObserver } from "./useIntersectionObserver";
+import { FloatingVideoButton } from './components/video'
+import SmoothScroll from "smooth-scroll";
+
+
+
+// Move data outside component
+const initialData = JsonData;
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -22,25 +29,32 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
+  // Use useMemo for landingPageData
+  const landingPageData = useMemo(() => initialData, []);
+  const [showVideo, setShowVideo] = useState(false);
 
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
 
   useIntersectionObserver();
 
   return (
     <div>
       <Background />
-      <Navigation data={landingPageData.menu} />
+      <Navigation
+        data={landingPageData.menu}
+        setShowVideo={setShowVideo}
+      />
       <Header data={landingPageData.Header} />
-      <Mission data={landingPageData.Features} />
+      <Mission data={landingPageData.Mission} />
       <About data={landingPageData.About} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+      <FloatingVideoButton
+        showVideo={showVideo}
+        setShowVideo={setShowVideo}
+      />
     </div>
   );
 };
+
 
 export default App;
