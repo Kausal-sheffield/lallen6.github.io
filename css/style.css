@@ -16,7 +16,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html {
@@ -38,8 +38,9 @@ body,
 html {
   margin: 0;
   padding: 0;
-  width: 100% !important;
+  width: 100%;
   overflow-x: hidden;
+  position: relative;
   /* Prevent horizontal scroll */
 }
 
@@ -111,15 +112,37 @@ a:focus {
 /* Container */
 .container {
   width: min(90%, 1400px);
+  justify-content: center;
+  padding: auto
+    /* margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 0px; */
+    /* padding-right: 50px; */
 }
 
 /* Sections */
 section {
-  padding: 5rem 0;
+  /* padding: 1rem 0; */
   transition: all 400ms ease;
+  width: 100%;
+  /* margin: 0 auto; */
+
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 400px) {
+  .container {
+    padding-right: 50px;
+  }
+
+  .intro {
+    padding-right: 0px;
+    padding-left: 50px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
@@ -136,7 +159,11 @@ section {
   }
 
   section {
-    padding: 3rem 0;
+    padding: 5rem 0;
+    transition: all 400ms ease;
+    width: 100%;
+    margin: 0 auto;
+
   }
 }
 
@@ -180,7 +207,7 @@ section {
 /* Navigation */
 #menu {
   padding: 15px;
-  max-width: calc(100vw);
+  max-width: 100%;
 
   transition: all 0.8s;
   position: sticky;
@@ -309,11 +336,7 @@ section {
 .navbar-header {
   display: flex;
   flex-wrap: wrap;
-  /* Allow items to wrap */
   align-items: center;
-  /* padding: 5px 5px; */
-  /* position: relative; */
-  /* For hamburger positioning */
 }
 
 /* Ensure vertical alignment */
@@ -484,17 +507,17 @@ section {
   padding: clamp(10px, 2vw, 20px);
   width: min(90%, 1200px);
   margin: 0 auto;
-  text-align: justify;
+  text-align: center;
 }
 
 #features .icons {
   display: flex;
   margin: auto;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: clamp(20px, 3vw, 40px);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* gap: clamp(20px, 3vw, 40px);
   padding: clamp(20px, 4vw, 40px);
-  width: min(90%, 1200px);
+  width: min(90%, 1200px); */
 }
 
 #features i.fa {
